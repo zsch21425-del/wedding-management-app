@@ -1,6 +1,3 @@
-/* ══════════════════════════════════════════════════════════
- * Trends & Ideas Hub — Pre-populated article feed
- * ══════════════════════════════════════════════════════════ */
 import { Article } from '../types';
 
 export const defaultArticles: Article[] = [
@@ -15,7 +12,7 @@ export const defaultArticles: Article[] = [
   {
     id: 'a2',
     title: 'The Multi-Color Palette Movement: How to Layer Wedding Colors',
-    summary: 'Gone are the days of two-tone weddings. Learn how to incorporate 4–5 colors cohesively across your ceremony, reception, and attire for a rich, layered palette.',
+    summary: 'Gone are the days of two-tone weddings. Learn how to incorporate 4\u20135 colors cohesively across your ceremony, reception, and attire for a rich, layered palette.',
     category: 'Trends',
     url: 'https://www.marthastewartweddings.com/color-palettes',
     gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
@@ -38,8 +35,8 @@ export const defaultArticles: Article[] = [
   },
   {
     id: 'a5',
-    title: 'Food as Décor: How Couples Are Making Menus Visual',
-    summary: 'Grazing tables, edible centerpieces, and interactive food stations are blurring the line between catering and design — and guests love it.',
+    title: 'Food as D\u00e9cor: How Couples Are Making Menus Visual',
+    summary: 'Grazing tables, edible centerpieces, and interactive food stations are blurring the line between catering and design \u2014 and guests love it.',
     category: 'Food & Drink',
     url: 'https://www.brides.com/food-decor-trends',
     gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
@@ -48,7 +45,7 @@ export const defaultArticles: Article[] = [
     id: 'a6',
     title: 'Bold Lighting Design: The New Wedding Centerpiece',
     summary: 'String lights are out, architectural lighting is in. See how uplighting, gobos, and neon accents are transforming wedding venues into immersive experiences.',
-    category: 'Décor',
+    category: 'D\u00e9cor',
     url: 'https://www.marthastewartweddings.com/lighting-ideas',
     gradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
   },
@@ -72,14 +69,14 @@ export const defaultArticles: Article[] = [
     id: 'a9',
     title: "DIY Wedding Flowers: What You Can Pull Off and What You Shouldn't Try",
     summary: 'Boutonnieres? Go for it. Bridal bouquets? Maybe. Large installations? Hire a pro. A realistic guide to floral DIY by skill level.',
-    category: 'Décor',
+    category: 'D\u00e9cor',
     url: 'https://www.weddingwire.com/wedding-ideas/diy-flowers',
     gradient: 'linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)',
   },
   {
     id: 'a10',
     title: 'Booking Vendors Off-Season: When to Lock In for Maximum Savings',
-    summary: 'January through March bookings can save you 20–40% on top vendors. Here's the optimal booking timeline by vendor type.',
+    summary: 'January through March bookings can save you 20\u201340% on top vendors. Here\'s the optimal booking timeline by vendor type.',
     category: 'Budget Tips',
     url: 'https://www.theknot.com/content/off-season-vendors',
     gradient: 'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)',
@@ -87,7 +84,7 @@ export const defaultArticles: Article[] = [
   {
     id: 'a11',
     title: "What Gets Cut First When You're Over Budget",
-    summary: 'Wedding planners reveal the line items that get trimmed first — and the ones you should never compromise on.',
+    summary: 'Wedding planners reveal the line items that get trimmed first \u2014 and the ones you should never compromise on.',
     category: 'Budget Tips',
     url: 'https://www.brides.com/budget-cuts',
     gradient: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)',
@@ -102,8 +99,8 @@ export const defaultArticles: Article[] = [
   },
   {
     id: 'a13',
-    title: 'Renting vs. Buying Wedding Décor: A Full Cost Breakdown',
-    summary: 'We compared the true cost of renting and buying for 15 common décor items. The results might surprise you — especially for centerpieces.',
+    title: 'Renting vs. Buying Wedding D\u00e9cor: A Full Cost Breakdown',
+    summary: 'We compared the true cost of renting and buying for 15 common d\u00e9cor items. The results might surprise you \u2014 especially for centerpieces.',
     category: 'Budget Tips',
     url: 'https://www.theknot.com/content/rent-vs-buy-decor',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
@@ -111,7 +108,7 @@ export const defaultArticles: Article[] = [
   {
     id: 'a14',
     title: 'The Perfect Wedding Day Timeline for 100 Guests',
-    summary: 'A minute-by-minute schedule template that keeps everything running smoothly for a mid-size wedding — from first look to last dance.',
+    summary: 'A minute-by-minute schedule template that keeps everything running smoothly for a mid-size wedding \u2014 from first look to last dance.',
     category: 'Trends',
     url: 'https://www.brides.com/day-of-timeline',
     gradient: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
@@ -135,7 +132,7 @@ export const defaultArticles: Article[] = [
   {
     id: 'a17',
     title: 'Grooms Are Stepping Up: Custom Suit Trends for 2026',
-    summary: 'Velvet jackets, earth-toned linens, and monogrammed details — grooms are making bold fashion statements this wedding season.',
+    summary: 'Velvet jackets, earth-toned linens, and monogrammed details \u2014 grooms are making bold fashion statements this wedding season.',
     category: 'Attire',
     url: 'https://www.brides.com/groom-suit-trends',
     gradient: 'linear-gradient(135deg, #36454F 0%, #C9A96E 100%)',
@@ -143,7 +140,7 @@ export const defaultArticles: Article[] = [
   {
     id: 'a18',
     title: 'Venue Red Flags to Watch for During Your Site Visit',
-    summary: 'Hidden fees, noise restrictions, and understaffing — here are the warning signs that a stunning venue might be a logistical nightmare.',
+    summary: 'Hidden fees, noise restrictions, and understaffing \u2014 here are the warning signs that a stunning venue might be a logistical nightmare.',
     category: 'Venues',
     url: 'https://www.weddingwire.com/wedding-ideas/venue-red-flags',
     gradient: 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)',
@@ -159,7 +156,7 @@ export const defaultArticles: Article[] = [
   {
     id: 'a20',
     title: 'Wedding Insurance: Is It Worth It and What Does It Cover?',
-    summary: 'Severe weather, vendor no-shows, injury liability — a breakdown of what wedding insurance actually protects and whether the cost makes sense.',
+    summary: 'Severe weather, vendor no-shows, injury liability \u2014 a breakdown of what wedding insurance actually protects and whether the cost makes sense.',
     category: 'Budget Tips',
     url: 'https://www.brides.com/wedding-insurance',
     gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
