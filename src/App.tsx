@@ -7,7 +7,7 @@ import React, { useState, useCallback } from 'react';
 import {
   Palette, LayoutDashboard, Users, Building2, DollarSign,
   CheckSquare, MapPin, Lightbulb, Image, Settings as SettingsIcon,
-  Heart, Menu, X,
+  Heart, Menu, X, Flame,
 } from 'lucide-react';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import {
@@ -37,6 +37,7 @@ import VenuePlanner from './components/Venue/VenuePlanner';
 import TrendsHub from './components/Trends/TrendsHub';
 import InspirationBoard from './components/Inspiration/InspirationBoard';
 import Settings from './components/Settings/Settings';
+import HiitMacroCalculator from './components/HiitCalculator/HiitMacroCalculator';
 
 /* ── Navigation items ── */
 const navItems: { page: AppPage; label: string; icon: React.ReactNode; mobileLabel: string }[] = [
@@ -49,6 +50,7 @@ const navItems: { page: AppPage; label: string; icon: React.ReactNode; mobileLab
   { page: 'venue', label: 'Venues', icon: <MapPin size={20} />, mobileLabel: 'Venue' },
   { page: 'trends', label: 'Trends & Ideas', icon: <Lightbulb size={20} />, mobileLabel: 'Trends' },
   { page: 'inspiration', label: 'Inspiration', icon: <Image size={20} />, mobileLabel: 'Inspo' },
+  { page: 'hiit', label: 'HIIT Calculator', icon: <Flame size={20} />, mobileLabel: 'HIIT' },
   { page: 'settings', label: 'Settings', icon: <SettingsIcon size={20} />, mobileLabel: 'Settings' },
 ];
 
@@ -153,6 +155,8 @@ export default function App() {
         return <TrendsHub articles={defaultArticles} bookmarkedIds={bookmarkedArticles} onToggleBookmark={toggleBookmark} />;
       case 'inspiration':
         return <InspirationBoard images={inspirationImages} onUpdateImages={setInspirationImages} activeScheme={activeScheme} />;
+      case 'hiit':
+        return <HiitMacroCalculator />;
       case 'settings':
         return <Settings settings={settings} onUpdateSettings={setSettings} onExportAll={exportAll} onImportAll={importAll} onResetAll={resetAll} />;
       default:
