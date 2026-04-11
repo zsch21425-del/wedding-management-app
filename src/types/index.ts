@@ -154,4 +154,4 @@ export interface DashboardTodo {
 export type AppPage =
   | 'dashboard' | 'colors' | 'guests' | 'vendors'
   | 'budget' | 'checklist' | 'venue' | 'trends'
-  | 'inspiration' | 'settings';
+  | 'inspiration' | 'hiit' | 'settings';
